@@ -1,0 +1,26 @@
+﻿.footer
+{
+    background-color: rgba(19, 18, 32, 1);
+    height: 65px;
+    width: calc(100vw - (100vw - 100%));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer span
+{
+    font-size: 14pt;
+    font-family: "Inter Light", sans-serif;
+    color: rgba(255, 96, 122, 0.5);
+    margin-right: 2rem;
+}
+
+.footer img
+{
+    height: 50%;
+    width: 50%;
+    margin-right: 10px;
+    border: rgba(255, 96, 122, 0.5) solid 1px;
+    border-radius: 25px;
+}

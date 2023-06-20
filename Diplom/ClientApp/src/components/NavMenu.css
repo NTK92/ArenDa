@@ -1,0 +1,117 @@
+﻿@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+header {
+  background-color: rgba(19, 18, 32, 1);
+  height: 65px;
+  width: calc(100vw - (100vw - 100%));
+  padding: 0 50px 0 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.logo .logoText
+{
+  padding-top: 20px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.logoImg {
+  height: 45px;
+  width: 50px;
+  position: relative;
+  top: -5%;
+  float: left;
+  cursor: pointer;
+}
+
+.logoText {
+  color: rgba(255, 96, 122, 1);
+  text-align: center;
+  font-weight: 600;
+  font-size: 18pt;
+  font-family: 'Rounded Mplus 1c Bold', serif;
+  letter-spacing: 0.25rem;
+  display: block;
+  margin-left: 0.2rem;
+  float: left;
+}
+
+.navButton {
+  position: relative;
+  float: right;
+  width: 93px;
+  height: 38px;
+  background-color: rgba(255, 96, 122, 1);
+  border: 2px solid rgba(255, 96, 122, 1);
+  text-align: center;
+  font-size: 12pt;
+  font-family: 'Rounded Mplus 1c Bold', serif;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navButton:hover
+{
+  color: rgba(255, 96, 122, 1);
+  background-color: rgba(19, 18, 32, 1);
+}
+
+.navButton-logout {
+  position: relative;
+  float: right;
+  width: 93px;
+  height: 38px;
+  background-color: white;
+  border: 2px solid white;
+  text-align: center;
+  font-size: 12pt;
+  font-family: 'Rounded Mplus 1c Bold', serif;
+  color: rgba(255, 96, 122, 1);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navButton-logout:hover
+{
+  color: white;
+  background-color: rgba(19, 18, 32, 1);
+}
+.navButton-account {
+   color:white;
+   font-size: 16pt;
+   position: relative;
+   width: 180px;
+   height: 38px;
+   cursor: pointer;
+   margin: 0;
+   border: 0;
+   background-color: rgba(19, 18, 32, 1);
+   text-align: center;
+   font-family: 'Rounded Mplus 1c Bold', serif;
+   text-decoration: underline;
+    white-space: nowrap
+}
+
+@font-face { 
+  font-family: 'Rounded Mplus 1c Bold';
+  src: url("Fonts/MPLUSRounded1c-Bold.ttf"); 
+}

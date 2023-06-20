@@ -1,0 +1,182 @@
+﻿.flat-page
+{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(255, 96, 122, 0.07);
+    width: calc(100vw - (100vw - 100%));
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flat-block
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: white;
+    max-width: 1024px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.19);
+    padding: 10px 30px 20px;
+}
+
+.flat-title
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flat-title span
+{
+    font-size: 22pt;
+    font-family: "Inter Extra Bold", sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.flat-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.flat-picture img
+{
+    flex: 1;
+    max-width: 512px;
+    border-radius: 10px;
+}
+
+.flat-info
+{
+    flex: 1;
+    padding-left: 15px;
+}
+
+.flat-h
+{
+    font-size: 20pt;
+    font-family: "Inter Semi Bold", sans-serif;
+}
+
+.flat-props
+{
+    font-size: 16pt;
+    font-family: "Inter Light", sans-serif;
+}
+
+li
+{
+   list-style: none;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    font-size: 16pt;
+    font-family: "Inter Medium", sans-serif;
+}
+
+.map
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.flat-btn
+{
+    padding: 0;
+    height: 42px;
+    width: 15%;
+    background-color: rgba(255, 96, 122, 1);
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'Rounded Mplus 1c Bold', serif;
+    color: white;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.flat-form
+{
+    width: 70%;
+    padding: 0;
+    height: 40px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    color: black;
+    font-size: 14pt;
+    font-family: "Inter Light",sans-serif;
+}
+
+.flat-conn
+{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.flat-Swiper {
+    width: 500px;
+    height: 345px;
+    
+    border-radius: 10px;
+}
+
+.swiper-wrapper
+{
+    padding-top: 1px;
+    flex: 1 1;
+}
+
+
+.flat-Swiper img {
+    max-width: 512px;
+    height: 345px;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'Inter Extra Bold';
+    src: url("../components/Fonts/Inter-ExtraBold.ttf");
+}
+@font-face {
+    font-family: 'Inter Semi Bold';
+    src: url("../components/Fonts/Inter-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Inter Regular';
+    src: url("../components/Fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Inter Medium';
+    src: url("../components/Fonts/Inter-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Inter Light';
+    src: url("../components/Fonts/Inter-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Rounded Mplus 1c Bold';
+    src: url("../components/Fonts/MPLUSRounded1c-Bold.ttf");
+}

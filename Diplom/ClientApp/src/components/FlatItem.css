@@ -1,0 +1,119 @@
+﻿.user-flats
+{
+    display: flex;
+    flex-direction: column;
+}
+.user-card
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 5px;
+    height: 260px;
+    margin-right: 15px;
+}
+.user-card img
+{
+    flex: 1;
+    max-width: 390px;
+    height: 260px;
+    border-radius: 10px;
+}
+.user-card-picture
+{
+    flex: 1;
+}
+.user-card-title
+{
+    margin: 0;
+    font-family: "Inter Regular", sans-serif;
+    font-size: 14pt;
+}
+.user-card-description
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: column;
+    font-family: "Inter Light", sans-serif;
+    font-size: 12pt;
+    padding: 0;
+    margin-top: 0;
+    max-width: 350px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.user-card-button
+{
+    align-self: flex-end;
+    height: 3rem;
+    width: 15rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 0;
+    cursor: pointer;
+    grid-column-start: 11;
+    grid-row-end: 3;
+    background-color: rgba(255, 96, 122, 1);
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'Rounded Mplus 1c Bold', serif;
+    color: white;
+    border-width: 0;
+    border-radius: 5px;
+}
+.hr-line {
+    margin: 20px 0;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 1px solid rgba(19, 18, 32, 1);
+}
+.newFlat
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+}
+
+.fileInput
+{
+    padding: 0;
+    color: black;
+    font-size: 14pt;
+    font-family: "Inter Light",sans-serif;
+    width: 100%;
+}
+
+.add-checkbox {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 40px
+}
+
+.add-btn
+{
+    align-self: flex-end;
+    height: 3rem;
+    width: 15rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 0;
+    cursor: pointer;
+    background-color: rgba(255, 96, 122, 1);
+    text-align: center;
+    font-size: 14pt;
+    font-family: 'Rounded Mplus 1c Bold', serif;
+    color: white;
+    border-width: 0;
+    border-radius: 5px;
+}
+.newFlat-btn
+{
+    display: flex;
+    justify-content: flex-end;
+}

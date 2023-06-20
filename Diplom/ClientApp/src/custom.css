@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  width: calc(100vw - (100vw - 100%));
+  background-color: rgba(255, 96, 122, 0.08);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100vw - (100vw - 100%));
+}
+
+.aside, .main {
+  width: 100%;
+  min-height: 1px;
+}
+
+@media (min-width: 990px) {
+  .aside {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    order: 1;
+  }
+  .main {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    order: 2;
+  }
+}
+
+@media (min-width: 1400px) {
+  .aside {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .main {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+  
+  
